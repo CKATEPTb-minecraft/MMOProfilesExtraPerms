@@ -38,4 +38,4 @@ We use [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0.0.html) to manag
 
 # How Does Its Work
 
-Every time a player connects to the server by selecting a profile, LuckPerms are sent to Player#attachment.
+Every time a player connects to the server by selecting a profile, LuckPerms transfer permissions to Player#attachment.
