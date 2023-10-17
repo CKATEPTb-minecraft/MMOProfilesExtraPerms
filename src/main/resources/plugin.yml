@@ -1,0 +1,7 @@
+name: '${projectName}'
+version: '${projectVersion}'
+main: 'dev.ckateptb.minecraft.mmoprofiles.extraperms.MMOProfilesExtraPerms'
+api-version: 1.20
+authors: [ CKATEPTb ]
+description: The concept of a permission vendor in MMOProfiles differs from the standard implementation due to the limitations of UUID spoofing. So we'll fix that..
+depend: [ Nicotine, MMOProfiles, LuckPerms, Varflex ]
