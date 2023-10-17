@@ -36,6 +36,11 @@ We use [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0.0.html) to manag
 * Enable plugin processing in configuration file
 * Disable Illegal group warnings in configuration file (optional)
 
+# Why
+
+MMOProfile does not provide for working with permissions, similar to that in bukkit, which is why users could not fully unleash the potential of the plugin. In other words,
+The permissions that were assigned to the profile created in MMOProfiles did not work. The plugin I provided solves this problem without any extra effort.
+
 # How Does Its Work
 
 Every time a player connects to the server by selecting a profile, LuckPerms transfer permissions to Player#attachment.
