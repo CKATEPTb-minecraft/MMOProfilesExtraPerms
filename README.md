@@ -26,6 +26,16 @@ We use [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0.0.html) to manag
 
 # How To Install Plugin
 
-* Download plugin [link (will add later)]()
-* Download dependencies [link (will add later)]()
+* Download plugin and deps[link] (https://github.com/CKATEPTb-minecraft/MMOProfilesExtraPerms/blob/development/binary/MMOProfilesExtraPerms.zip)
+* Download LuckPerms and MMOProfiles with their depends
 * Put plugin and dependencies to your plugins folder
+
+# How To Use Plugin
+
+* After the initial launch, open the configuration file and make sure you have done everything necessary
+* Enable plugin processing in configuration file
+* Disable Illegal group warnings in configuration file (optional)
+
+# How Does Its Work
+
+Every time a player connects to the server by selecting a profile, LuckPerms are sent to Player#attachment.
